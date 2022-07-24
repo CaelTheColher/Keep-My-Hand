@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.cael.keepmyhand.mixin",
+  "plugin": "me.cael.keepmyhand.mixin.MixinConfigPlugin",
+  "client": [
+    "GameRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

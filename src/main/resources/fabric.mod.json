@@ -1,38 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "keep-my-hand",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Keep My Hand",
+  "description": "Keeps your hand from being hidden with the UI when you press F1",
   "authors": [
-    "Me!"
+    "Cael"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "discord": "「 Lily 」#5284",
+    "homepage": "https://github.com/CaelTheColher/Keep-My-Hand",
+    "sources": "https://github.com/CaelTheColher/Keep-My-Hand",
+    "issues": "https://github.com/CaelTheColher/Keep-My-Hand/issues"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
 
-  "environment": "*",
-  "entrypoints": {
-    "main": [
-      "net.fabricmc.example.ExampleMod"
-    ]
-  },
+  "environment": "client",
+
   "mixins": [
-    "modid.mixins.json"
+    "keepmyhand.mixins.json"
   ],
 
   "depends": {
-    "fabricloader": ">=0.14.6",
-    "fabric": "*",
-    "minecraft": "~1.19",
-    "java": ">=17"
-  },
-  "suggests": {
-    "another-mod": "*"
+    "fabricloader": ">=0.14.6"
   }
 }
