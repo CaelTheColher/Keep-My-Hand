@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "keepmyhand",
+  "version": "${version}",
+
+  "name": "Keep My Hand",
+  "description": "Keeps your hand from being hidden with the UI when you press F1",
+  "authors": [
+    "Cael"
+  ],
+  "contact": {
+    "discord": "「 Lily 」#5284",
+    "homepage": "https://github.com/CaelTheColher/Keep-My-Hand",
+    "sources": "https://github.com/CaelTheColher/Keep-My-Hand",
+    "issues": "https://github.com/CaelTheColher/Keep-My-Hand/issues"
+  },
+
+  "license": "CC0-1.0",
+
+  "environment": "client",
+
+  "mixins": [
+    "keepmyhand.mixins.json",
+    "keepmyhand.fabric.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6"
+  }
+}
